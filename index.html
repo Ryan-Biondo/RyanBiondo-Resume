@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ryan Biondo's Resume</title>
     <style>
-      .resume {
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
         height: 100vh;
+      }
+      .download-button {
+        padding: 10px;
+        background-color: blue;
+        color: white;
+        text-align: center;
+      }
+      .resume {
+        flex-grow: 1;
       }
     </style>
   </head>
   <body>
+    <div class="download-button">Download Resume</div>
     <div class="resume">
-      <a href="https://docs.google.com/document/d/e/2PACX-1vSMZlgG6SrXK0_8QrApBar1nirjXmnZVLrpEbY5dqYe8QWIhXbdggxyEh2odN4xVOJlKs9HZoy-dqFi/pub?embedded=true">Download Resume</a>
-
       <iframe
         src="https://docs.google.com/document/d/e/2PACX-1vSMZlgG6SrXK0_8QrApBar1nirjXmnZVLrpEbY5dqYe8QWIhXbdggxyEh2odN4xVOJlKs9HZoy-dqFi/pub?embedded=true"
         width="100%" 
